@@ -1,0 +1,34 @@
+{
+  "name": "gl-dds",
+  "version": "0.1.0",
+  "description": "Parse DDS images",
+  "main": "lib/dds.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib",
+    "test": "mocha -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/timknip/gl-dds.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.9.0",
+    "expect.js": "0.3.1",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "dds",
+    "texture",
+    "gl",
+    "opengl"
+  ],
+  "author": "Tim Knip <tim@floorplanner.com> (http://www.floorplanner.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timknip/gl-dds/issues"
+  },
+  "homepage": "https://github.com/timknip/gl-dds#readme",
+  "dependencies": {
+  }
+}
